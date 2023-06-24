@@ -1,0 +1,53 @@
+// ==========================================================================
+// Device Icons
+// ==========================================================================
+
+.blpge_inspector_device-icons {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  margin-left: 5px;
+  &__icon {
+    background: $lighter-gray;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 50%;
+    width: 23px;
+    padding: 5px 3px;
+    height: 22px;
+    font-size: 11px;
+    line-height: 5px;
+    text-align: center;
+    color: #656567 !important;
+    &:hover {
+      color: #fff !important;
+      background: $primary-color;
+    }
+    &--active {
+      color: #fff !important;
+      background: $primary-color;
+    }
+  }
+}
+
+.blpge_inspector_device-icons--small {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  margin-left: 5px;
+  .blpge_inspector_device-icons__icon {
+    background: transparent;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 50%;
+    width: 16px;
+    font-size: 11px;
+    line-height: 5px;
+    text-align: center;
+    color: #333 !important;
+    &:hover {
+      color: $primary-color !important;
+    }
+    &--active {
+      color: $primary-color !important;
+    }
+  }
+}

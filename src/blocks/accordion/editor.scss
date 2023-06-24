@@ -1,0 +1,80 @@
+div[data-type="blockypage-blocks/accordion"]:hover > .editor-block-list__block-edit:before {
+  border: 1px dashed #333;
+}
+
+div[data-type="blockypage-blocks/accordion"] > .editor-block-list__block-edit div ul.blpge_accordion__items {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+div[data-type="blockypage-blocks/accordion"]:hover .blpge_accordion__items__add-item-button,
+div[data-type="blockypage-blocks/accordion"].is-selected .blpge_accordion__items__add-item-button {
+  opacity: 1;
+}
+
+.blpge_mode .blpge_row div[data-type="blockypage-blocks/accordion"] {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+
+.blpge_accordion__items .blpge_accordion__items__add-item-button {
+  opacity: 0;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  width: 250px;
+  color: #0073aa;
+  margin: 20px auto;
+  svg {
+    margin-right: 10px;
+  }
+}
+
+
+/*******************************************************
+*
+* Appender Style
+*
+********************************************************/
+
+/* 
+ * Select all paragraph blocks inside the container, including the first one,
+ */
+
+.blpge_accordion__items > .editor-inner-blocks > .editor-block-list__layout > div[data-type="core/paragraph"] {
+  display: none;
+}
+/* 
+ * Select all but the first paragraph inside the container,
+ * and display block them
+ */
+
+.blpge_accordion__items
+  > .editor-inner-blocks
+  > .editor-block-list__layout
+  > div[data-type="core/paragraph"]
+  ~ div[data-type="core/paragraph"] {
+  display: block;
+}
+
+.blpge_accordion__items .block-editor-default-block-appender {
+  display: none;
+}
+
+div[data-type="blockypage-blocks/accordion"] .blpge_editor_appender {
+  opacity: 0 !important;
+}
+
+div[data-type="blockypage-blocks/accordion"]:hover .blpge_editor_appender {
+  opacity: 1 !important;
+  height: auto !important;
+  transition: 0.5s;
+}
+
+div[data-type="blockypage-blocks/accordion"].is-selected .blpge_editor_appender {
+  opacity: 1 !important;
+  height: auto !important;
+}
+

@@ -1,0 +1,19 @@
+// ==========================================================================
+// blpge mode  post title label
+// ==========================================================================
+
+.editor-post-title__block .blpge_editor_post-title-label {
+    overflow: hidden;
+    overflow-wrap: break-word;
+    resize: none;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    height: 29px;
+    color: #fff;
+    background: #f26b76;
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 5px 0 0 5px;
+    font-family: roboto, sans-serif;
+}

@@ -1,0 +1,16 @@
+export default [
+	{ label: 'USD', value: '$' },
+	{ label: 'EUR', value: '€' },
+	{ label: 'CRC', value: '₡' },
+	{ label: 'GBP', value: '£' },
+	{ label: 'INR', value: '₹' },
+	{ label: 'JPY', value: '¥' },
+	{ label: 'KRW', value: '₩' },
+	{ label: 'NGN', value: '₦' },
+	{ label: 'PHP', value: '₱' },
+	{ label: 'PLN', value: 'zł' },
+	{ label: 'PYG', value: '₲' },
+	{ label: 'THB', value: '฿' },
+	{ label: 'UAH', value: '₴' },
+	{ label: 'VND', value: '₫' },
+];

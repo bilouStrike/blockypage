@@ -1,0 +1,24 @@
+.blpge_upload_image {
+    height: 400px;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.blpge_upload_img_btn {
+  color: #e7404b;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px dashed #e7404b;
+  background-color: #ffffff;
+  padding: 16px 40px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.blpge_float-right {
+    float: right;
+}

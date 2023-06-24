@@ -1,0 +1,64 @@
+// ==========================================================================
+// Button
+// ==========================================================================
+
+.blpge_inspector_btn {
+  display: inline;
+  margin: 10px 0px;
+  cursor: pointer;
+  background: #fff !important;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  &--medium {
+    padding: 8px 10px;
+    outline: 0px;
+    font-size: 12px;
+  }
+
+  &:hover {
+    background-color: $lighter-gray;
+    opacity: 0.7;
+  }
+  
+  i {
+    margin-left: 5px;
+  }
+
+  &--small {
+    padding: 5px;
+    font-size: 10px;
+  }
+}
+
+.blpge_inspector_clear_btn {
+  margin: 9px 0px;
+  font-size: 12px;
+  color: #999 ;
+  cursor: pointer;
+  &--right {
+    float: right;
+  }
+  &--left {
+    float: left;
+  }
+}
+
+.blpge_inspector_clear_btn {
+  &--right i, &--left i  {
+    margin: 13px 0px;
+    font-size: 11px;
+    color: #8c76c7;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.blpge_inspector_btn-group__btn {
+  box-shadow: none;
+}

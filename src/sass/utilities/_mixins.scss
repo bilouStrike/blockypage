@@ -1,0 +1,25 @@
+// ==========================================================================
+// Mixins 
+// ==========================================================================
+
+// Media Queries Mixin
+@mixin mq($break) {
+    @if $break == "xs" {
+      @media (max-width: $brp_xs) {
+        @content;
+      }
+    }
+    @else if $break == "sm" {
+        @media (min-width: $brp_xs + 0.02) and (max-width: $brp_sm) {
+        @content;
+      }
+    }
+    @else if $break == "md" {
+        @media (min-width: $brp_sm + 0.02) and (max-width: $brp_md) {
+        @content;
+      }
+    }
+     @else {
+         @error "Whoops! No value could be retrieved for `#{$break}`. "
+    }
+}

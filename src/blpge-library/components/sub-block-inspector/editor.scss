@@ -1,0 +1,39 @@
+.blpge_inspector_sub-block-selector {
+   
+    font-size: 13px;
+    padding: 5px 5px;
+    margin-top: 20px;
+    margin-left: -20px;
+    background: #e4def4;
+
+    margin-right: -20px;
+    margin-bottom: -16px;
+    &__title {
+        background:   #f1f2f4;
+        padding: 7px 20px;
+        color: #555d66;
+        font-size: 12px;
+    }
+    &__selector {
+        padding: 7px;
+        padding-left: 15px;
+        color: #2e3339;
+    }
+}
+
+.blpge_fade_in {
+    opacity: 1;
+	animation-name: blpge_fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.4s;
+}
+
+@keyframes blpge_fadeInOpacity {
+    0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+  }

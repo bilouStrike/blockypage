@@ -1,0 +1,99 @@
+.blpge_add_new_button {
+  display: flex;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  opacity: 0;
+}
+
+.blpge_btn_group:hover {
+  .blpge_add_new_button {
+    opacity: 1;
+  }
+}
+.blpge_is-mobile-portrait, .blpge_is-mobile-landscape, .blpge_is-tablet {
+  .blpge_btnGroup {
+    .editor-block-list__layout {
+      margin-left: -46px !important;
+    }
+  }
+
+}
+
+.blpge_btn_group .block-list-appender {
+  display: none;
+}
+
+.blpge_btn_group div[data-type="blockypage-blocks/button"].is-selected .blpge_editor_extra-toolbar {
+  opacity: 0;
+}
+
+div[data-type="blockypage-blocks/button-group"]:hover > .editor-block-list__block-edit:before {
+  border: 1px dashed #333;
+}
+
+.blpge_btn_group div[data-type="blockypage-blocks/button"]:hover .blpge_editor_extra-toolbar {
+  opacity: 1;
+}
+
+.blpge_btnGroup > .blpge_btn_group > .block-editor-inner-blocks > .block-editor-block-list__layout {
+  display: flex !important;
+  //flex-wrap: wrap;
+}
+
+/*.blpge_btn_group > .editor-inner-blocks > .editor-block-list__layout div[data-type="blockypage-blocks/button"] {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  width: auto !important;
+  margin-right: 16px;
+}
+*/
+.blpge_btn_group
+  > .editor-inner-blocks
+  > .editor-block-list__layout
+  div[data-type="blockypage-blocks/button"]
+  > .editor-block-list__block-edit:before {
+  display: none;
+}
+
+.blpge_btn_group
+  > .editor-inner-blocks
+  > .editor-block-list__layout
+  div[data-type="blockypage-blocks/button"]
+  > .editor-block-list__block-edit
+  > .editor-block-mover {
+  margin-top: 10px;
+  left: 0px;
+}
+
+.blpge_btn_group
+  > .editor-inner-blocks
+  > .editor-block-list__layout
+  div[data-type="blockypage-blocks/button"]:not(:first-child)
+  {
+    padding-left: 15px !important;
+  }
+
+//wp-block editor-block-list__block block-editor-block-list__block
+
+.blpge_row div[data-type="blockypage-blocks/button-group"] .blpge_editor_extra-toolbar {
+  display: none !important;
+}
+
+.blpge_btn_group > .editor-styles-wrapper ol, .editor-styles-wrapper ul {
+  padding: inherit;
+   padding-left: 0px !important;
+   margin-left: 0px !important;
+}
+
+/*.editor-styles-wrapper ol, .editor-styles-wrapper ul {
+  padding-left: 0px !important; 
+}
+
+.editor-styles-wrapper ol, .editor-styles-wrapper ul {
+  margin-left: 0em !important;
+}
+*/
+

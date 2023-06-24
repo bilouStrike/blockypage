@@ -1,0 +1,59 @@
+.blpge_block-first-wrapper .blpge_block-second-wrapper .blpge_accordion__items {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.blpge_block-first-wrapper .blpge_block-second-wrapper .blpge_accordion__items li {
+  width: 100%;
+  color: #000000;
+  font-size: 16px;
+  margin: 10px 0px 0px 0px;
+  list-style: none;
+}
+
+.blpge_accordion_link h3 {
+  background: #ddd;
+}
+
+.blpge_accordion_link p {
+  border: #ddd;
+}
+
+.blpge_accordion_link p {
+  border: #ddd;
+}
+
+.blpge_accordion__items .blpge_according__items__link__title {
+  margin: 0px;
+  padding: 15px;
+  font-size: 16px;
+  color: #000000;
+  cursor: pointer;
+  background: #eeeeee;
+  border: 1px solid #cccccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blpge_according__items__link__title svg {
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+.blpge_accordion__items .blpge_according__items__link__content {
+  display: none;
+}
+
+.blpge_accordion__items .blpge_according__items__link__content .active {
+  display: block;
+}
+
+.blpge_accordion__items .blpge_accordion-item p {
+  margin: 0px;
+  font-size: 16px;
+  padding: 10px;
+}

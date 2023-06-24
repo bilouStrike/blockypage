@@ -1,0 +1,29 @@
+// ==========================================================================
+// Options Set
+// ==========================================================================
+
+.blpge_inspector_options-set {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0px 15px 0px;
+  .components-base-control {
+    margin-bottom: 0px !important;
+  }
+
+  // Changing style for some default elements of Gutenberg
+  .components-toggle-control__label {
+    font-size: 12px;
+  }
+
+  .components-form-toggle.is-checked .components-form-toggle__track {
+    background: $primary-color;
+  }
+
+  .components-toggle-control__label {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  .components-base-control__help {
+    font-size: 9px;
+  }
+}

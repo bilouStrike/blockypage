@@ -1,0 +1,121 @@
+div[data-type="blockypage-blocks/tabs"] > .editor-block-list__block-edit > .editor-block-mover {
+  left: -30px;
+  top: 12px;
+}
+
+div[data-type="blockypage-blocks/tabs"] > .editor-block-list__block-edit > .editor-block-contextual-toolbar > .editor-block-toolbar {
+  left: 14px;
+  top: 14px;
+}
+
+div[data-type="blockypage-blocks/tabs"] > .editor-block-list__block-edit {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.blpge_mode .blpge_row div[data-type="blockypage-blocks/tabs"] {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+div[data-type="blockypage-blocks/tabs"] > .editor-block-list__block-edit:before {
+  top: 0px !important;
+  bottom: 0px !important;
+  right: 0px !important;
+  left: 0px !important;
+}
+
+div[data-type="blockypage-blocks/tabs"]:hover > .editor-block-list__block-edit:before {
+  border-color: rgba(66, 88, 99, 0.4);
+}
+
+.blpge_tabs {
+  padding: 10px !important;
+}
+
+.blpge_tabs__titles__link {
+  position: relative;
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: auto !important;
+}
+
+.blpge_tabs__titles__link .editor-rich-text p {
+  font-size: 16px;
+}
+
+.blpge_tabs__titles li.blpge_tabs__titles__link--current {
+  background: #ededed;
+  color: #222;
+}
+
+.blpge_tabs__titles__link__remove {
+  opacity: 0;
+  position: absolute;
+  top: -14px;
+  right: -2px;
+  cursor: pointer;
+  i {
+    font-size: 18px !important;
+    text-shadow: none !important;
+    background: #fff !important;
+    border-radius: 50% !important;
+    color: rgb(220, 78, 27) !important;
+  }
+}
+
+.blpge_tabs__titles__link:hover .blpge_tabs__titles__link__remove {
+  opacity: 1 !important; 
+}
+
+.blpge_tabs__contents__tab-content {
+  display: block !important;
+  position: relative;
+}
+
+.blpge_tabs__contents__tab-content.blpge_tabs__titles__link--current {
+  display: inherit;
+}
+
+.blpge_tabs__titles {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.blpge_tabs__titles__add-icon {
+  padding-top: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+div[data-type="blockypage-blocks/tabs"]:hover .blpge_tabs__titles__add-icon {
+  opacity: 1;
+}
+
+div[data-type="blockypage-blocks/tab-content"] {
+  display: none;
+}
+
+div[data-type="blockypage-blocks/tab-content"] > .editor-block-list__insertion-point {
+  display: none;
+}
+
+div[data-type="blockypage-blocks/tab-content"] > .editor-block-list__block-edit:before {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+div[data-type="blockypage-blocks/tab-content"]
+  > .editor-block-list__block-edit
+  > .block-editor-block-contextual-toolbar {
+  display: none !important;
+}
+
+div[data-type="blockypage-blocks/tab-content"]:first-of-type {
+  display: block;
+}

@@ -1,0 +1,205 @@
+/* common style */
+.blpge_team {
+  text-align: center;
+  padding: 10px;
+}
+
+.blpge_team__content__name {
+  font-size: 22px;
+  line-height: 2;
+}
+
+.blpge_team__content__role {
+  font-size: 16px;
+}
+
+.blpge_team__content__description {
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.blpge_team__content {
+  flex:1;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*.blpge_team__content .blpge_team__image {
+  margin: auto;
+  text-align: center;
+}*/
+
+.blpge_team__image img {
+  width: 160px;
+  border-radius: 50%;
+}
+
+.blpge_team__image__holder {
+  margin: auto;
+  background: #f5f5f5;
+  width: 180px;
+  height: 180px;
+  vertical-align: middle;
+}
+
+.blpge_team__image__holder i {
+  margin-top: 30%;
+  color: #999999;
+  font-size: 70px !important;
+}
+
+.blpge_team__content__social_links a {
+  margin-left: 5px;
+}
+
+.blpge_team__content__social_links svg {
+  margin-left: 5px;
+  width:20px;
+}
+
+
+/** Layout 0 default **/
+.blpge_team__layout-style-0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*.blpge_team__layout-style-2 .blpge_team__content > div {
+    padding: 15px;
+}*/
+
+/** Layout 1 **/
+/*.blpge_team__layout-style-1 .blpge_team > div {
+  display: flex;
+  flex-direction: column;
+}
+*/
+
+/**  Layout 1 **/
+
+.blpge_team__layout-style-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.blpge_team__layout-style-1 .blpge_team__content {
+    text-align: left;
+}
+
+.blpge_team__layout-style-1 .blpge_team__image {
+  position: relative;
+}
+
+/*.blpge_team__layout-style-2 .blpge_team__image img {
+  max-width: 100%;
+  width: 300px;
+}*/
+
+/** Layout 2 **/
+.blpge_team__layout-style-2 {
+  position: relative;
+}
+
+.blpge_team__layout-style-2 .blpge_team__image img {
+  max-width: 70%;
+}
+
+.blpge_team__layout-style-2 .blpge_team__image {
+  position: relative;
+}
+
+.blpge_team__layout-style-2 .blpge_team__content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+  opacity: 0;
+  transition: 0.8s ease;
+  background-color: #fff;
+}
+
+.blpge_team__layout-style-2:hover > .blpge_team__content {
+  opacity: 0.9;
+}
+
+/* reduce space between */
+.edit-post-settings-sidebar__panel-block .components-panel__body .components-base-control {
+  margin-bottom: 0px;
+}
+
+/**
+ * Social Media Brand Colors 
+ */
+.blpge-facebook svg { color:#1877f2}
+.blpge-facebookold svg { color:#3b5998}
+.blpge-twitter svg { color:#1da1f2}
+.blpge-youtube svg { color:#ff0000}
+.blpge-instagram svg { color:#c32aa3}
+.blpge-behance svg { color:#191919}
+.blpge-github svg { color:#191919}
+
+.blpge-googleblue svg { color:#4285f4}
+.blpge-googlered svg { color:#ea4335}
+.blpge-googleyellow svg { color:#fbbc05}
+.blpge-googlegreen svg { color:#34a853}
+.blpge-pinterest svg { color:#bd081c}
+.blpge-googleplus svg { color:#db4437}
+.blpge-linkedin svg { color:#007bb5}
+.blpge-vimeoblue svg { color:#1ab7ea}
+.blpge-tumblr svg { color:#2c4762}
+.blpge-snapchat svg { color:#fffc00}
+.blpge-whatsappgreen svg { color:#25d366}
+.blpge-whatsappteal1 svg { color:#075e54}
+.blpge-whatsappteal2 svg { color:#128c7e}
+.blpge-mastodon svg { color:#2b90d9}
+.blpge-apple svg { color:#a6b1b7}
+.blpge-amazon svg { color:#ff9900}
+.blpge-microsoftred svg { color:#f35022}
+.blpge-microsoftgreen svg { color:#80bb03}
+.blpge-microsoftblue svg { color:#03a5f0}
+.blpge-microsoftyellow svg { color:#ffb903}
+.blpge-periscope svg { color:#40a4c4}
+.blpge-foursquarepink svg { color:#f94877} 
+.blpge-foursquarenavy svg { color:#073282}
+.blpge-foursquareblue svg { color:#2d5be3} 
+.blpge-swarm svg { color:#ffa633}
+.blpge-medium svg { color:#02b875}
+.blpge-skypeblue svg { color:#00aff0}
+.blpge-skypedkblue svg { color:#0078d7}
+.blpge-android svg { color:#a4c639}
+.blpge-stumbleupon svg { color:#e94826}
+.blpge-flickr svg { color:#f40083}
+.blpge-flickrblue svg { color:#006add}
+.blpge-yahoo svg { color:#430297}
+.blpge-twitch svg { color:#6441a4}
+.blpge-soundcloud svg { color:#ff5500}
+.blpge-spotifygreen svg { color:#1ed760}
+.blpge-spotifydarkgreen svg { color:#1db954}
+.blpge-dribbble svg { color:#ea4c89}
+.blpge-slackpurple svg { color:#4a154b} 
+.blpge-slackblue svg { color:#36c5f0} 
+.blpge-slackgreen svg { color:#2eb67d} 
+.blpge-slackred svg { color:#e01e5a} 
+.blpge-slackyellow svg { color:#ecb22e} 
+.blpge-reddit svg { color:#ff5700}
+.blpge-deviantart svg { color:#05cc47}
+.blpge-pocket svg { color:#ee4056}
+.blpge-quora svg { color:#aa2200}
+.blpge-quorablue svg { color:#2b6dad}
+.blpge-slideshareorange svg { color:#e68523}
+.blpge-slideshareblue svg { color:#00a0dc}
+.blpge-fivehundredpx svg { color:#0099e5}
+.blpge-vk svg { color:#4a76a8}
+.blpge-listlyorange svg { color:#df6d46}
+.blpge-listlyblue svg { color:#52b1b3}
+.blpge-vine svg { color:#00b489}
+.blpge-steam svg { color:#171a21}
+.blpge-discord svg { color:#7289da}
+.blpge-telegram svg { color:#0088cc}
+.blpge-clarity svg { color:#61bed9}

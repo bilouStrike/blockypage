@@ -1,0 +1,16 @@
+.blpge_iconList__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.blpge_iconList__item svg {
+    width: 18px;
+    margin-right: 5px;
+    color: #1baff4;
+}
+
+.blpge_iconList__item__text {
+    font-size: 16px;
+    margin-left: 5px;
+}

@@ -1,0 +1,61 @@
+.blpge_inspector_shadow_styles {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blpge_inspector_shadow_styles a {
+    text-align: center;
+    width: 45%;
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #f1f5f9;
+    margin: 5px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.blpge_shadow_style_box {
+    display: -ms-flexbox;
+    display: flex;
+    width: 60%;
+    height: 40px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.blpge_box_shadow-style1 {
+    box-shadow:0px 2px 18px 0px #333; 
+}
+
+.blpge_box_shadow-style2 {
+    box-shadow:6px 6px 18px 0px #333; 
+}
+
+.blpge_box_shadow-style3 {
+    box-shadow:0px 12px 18px -6px #333; 
+}
+.blpge_box_shadow-style4 {
+    box-shadow: inset 0px 0px 18px 0px #333; 
+}
+
+.blpge_box_shadow-style5 {
+    box-shadow:10px 10px 0px 0px #333; 
+}
+
+.blpge_box_shadow-style6 {
+    box-shadow:inset 10px 10px 0px 0px #333; 
+}
+

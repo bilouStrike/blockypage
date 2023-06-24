@@ -1,0 +1,50 @@
+.blpge_container--block {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+div[data-type="blockypage-blocks/container"] {
+  border: 1px solid transparent;
+}
+
+
+.blpge_container .editor-inner-blocks > .editor-block-list__layout {
+  height: 100% !important;
+}
+
+div[data-type="blockypage-blocks/container"]:hover {
+  border: 1px dashed #000 !important;
+  transition: 0.5s;
+
+}
+
+.blpge_container__videoContainer {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  z-index: -50;
+}
+ 
+div[data-type="blockypage-blocks/container"]
+  > .editor-block-list__block-edit
+
+.blpge_inspector_container-width div[class^="blpge_row__col--"] {
+  padding: 0px !important;
+}
+
+.blpge_inspector_container-width .components-base-control {
+  min-width: 232px;
+  margin-top: 10px;
+}
+
+.blpge_inspector_container-width .blpge_inspector_css-units {
+  margin-top: 15px;
+}
+
+div[data-type="blockypage-blocks/container"] {
+  max-width: 100%;
+}

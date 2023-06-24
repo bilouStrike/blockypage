@@ -1,0 +1,52 @@
+.blpge-div-copy {
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    overflow: hidden;
+    left:0;
+    top:0;
+    border: 1px solid #595959;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 0;
+    background: black;
+    color: white;
+    box-shadow: 0 0 15px black;
+	-webkit-transition:opacity 200ms;
+    -moz-transition:opacity 200ms;
+    -o-transition:opacity 200ms;
+    -ms-transition:opacity 200ms;
+}
+
+.blpge-div-copy  li {
+    width: 100px;
+    padding: 5px 8px;
+    cursor: pointer;
+    color:#fff;
+}
+
+.blpge-div-copy li.disabled {
+    color: darkgrey;
+	cursor: default;
+}
+
+.blpge-div-copy li:hover {
+    background-color: #284160;
+}
+
+.blpge-div-copy li.disabled:hover {
+    background-color: #202020;
+}
+
+.blpge-div-copy  i {
+    padding-right: 6px
+}
+
+.blpge-div-copy  hr {
+    background-color: grey;
+    height: 1px;
+    border: 0;
+    margin: 2px 0px;
+}

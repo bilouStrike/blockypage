@@ -1,0 +1,176 @@
+// ==========================================================================
+// Row Columns
+// ==========================================================================
+
+// col base style
+%col {
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+// Calculate grid columns
+@for $i from 1 through $g-col-count {
+  $context: g-context($g-col-width, $g-col-count, $g-gutter-width);
+  $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+
+  // Generate default column modifier classes
+  .blpge_row__col--#{$i} {
+    width: percentage($target / $context);
+    @extend %col;
+  }
+}
+// Calculate With Gutters 
+// gutter 10px 
+@for $i from 1 through $g-col-count {
+  $context: g-context($g-col-width, $g-col-count, 10px);
+  $target: ($g-col-width * $i) + (10px * ($i - 1));
+
+  // Generate default column modifier classes
+  .blpge_row--gutter-10 .blpge_row__col--#{$i} {
+    width: percentage($target / $context);
+  }
+}
+
+// gutter 20px 
+@for $i from 1 through $g-col-count {
+  $context: g-context($g-col-width, $g-col-count, 20px);
+  $target: ($g-col-width * $i) + (20px * ($i - 1));
+
+  // Generate default column modifier classes
+  .blpge_row--gutter-20 .blpge_row__col--#{$i} {
+    width: percentage($target / $context);
+  }
+}
+
+
+// gutter 30px 
+@for $i from 1 through $g-col-count {
+  $context: g-context($g-col-width, $g-col-count, 30px);
+  $target: ($g-col-width * $i) + (30px * ($i - 1));
+
+  // Generate default column modifier classes
+  .blpge_row--gutter-30 .blpge_row__col--#{$i} {
+    width: percentage($target / $context);
+  }
+}
+
+
+// gutter 40px 
+@for $i from 1 through $g-col-count {
+  $context: g-context($g-col-width, $g-col-count, 40px);
+  $target: ($g-col-width * $i) + (40px * ($i - 1));
+
+  // Generate default column modifier classes
+  .blpge_row--gutter-40 .blpge_row__col--#{$i} {
+    width: percentage($target / $context);
+  }
+}
+
+// gutter 60px 
+@for $i from 1 through $g-col-count {
+  $context: g-context($g-col-width, $g-col-count, 60px);
+  $target: ($g-col-width * $i) + (60px * ($i - 1));
+
+  // Generate default column modifier classes
+  .blpge_row--gutter-60 .blpge_row__col--#{$i} {
+    width: percentage($target / $context);
+  }
+}
+
+// 5 columns
+.blpge_row__col--24 {
+  width: 20%;
+  @extend %col;
+}
+// 10px (5 columns gutter) 
+.blpge_row__col--24 {
+  width: 20%;
+  @extend %col;
+}
+
+.blpge_row--gutter-10 .blpge_row__col--24 {
+  width : calc(20% - 5px);
+}
+
+
+.blpge_row--gutter-20 .blpge_row__col--24 {
+  width : calc(20% - 10px);
+}
+
+.blpge_row--gutter-30 .blpge_row__col--24 {
+  width : calc(20% - 15px);
+}
+
+
+.blpge_row--gutter-40 .blpge_row__col--24 {
+  width: calc(20% - 20px);
+}
+
+
+.blpge_row--gutter-60 .blpge_row__col--24 {
+  width: calc(20% - 30px);
+}
+
+
+
+
+
+// Layout on Breakpoints
+// Default
+@include mq(sm) {
+  // 5 columns 
+  .blpge_row__col--24 {
+    width: 100%;
+  }
+  @for $i from 1 through $g-col-count {
+    // Generate column modifier classes
+    .blpge_row .blpge_row__col--#{$i} {
+      width: 100%;
+    }
+  }
+}
+
+@include mq(xs) {
+  @for $i from 1 through $g-col-count {
+    // Generate column modifier classes
+    .blpge_row .blpge_row__col--#{$i} {
+      width: 100%;
+    }
+  }
+}
+
+// Medium
+@include mq(md) {
+  @for $i from 1 through $g-col-count {
+    $context: g-context($g-col-width, $g-col-count, $g-gutter-width);
+    $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+    // Generate column modifier classes
+    .blpge_row .blpge_row__col--md-#{$i} {
+      width: percentage($target / $context);
+    }
+  }
+}
+
+// Small
+@include mq(sm) {
+  @for $i from 1 through $g-col-count {
+    $context: g-context($g-col-width, $g-col-count, $g-gutter-width);
+    $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+    // Generate column modifier classes
+    .blpge_row .blpge_row__col--sm-#{$i} {
+      width: percentage($target / $context);
+    }
+  }
+}
+
+// extra  small
+@include mq(xs) {
+  @for $i from 1 through $g-col-count {
+    $context: g-context($g-col-width, $g-col-count, $g-gutter-width);
+    $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+    // Generate column modifier classes
+    .blpge_row .blpge_row__col--xs-#{$i} {
+      width: percentage($target / $context);
+    }
+  }
+}

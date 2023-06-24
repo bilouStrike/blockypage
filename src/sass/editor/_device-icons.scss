@@ -1,0 +1,35 @@
+// ==========================================================================
+// blpge device icons
+// ==========================================================================
+.blpge_editor_device-icons {
+  text-align: right;
+  width: 50%;
+  padding-top: 18px;
+  &__span {
+    cursor: pointer;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 4px;
+    &:hover {
+      background: #eb6a75;
+      i {
+        color: #ffffff;
+      }
+    }
+    i {
+      font-style: normal !important;
+      font-size: 17px !important;
+      margin-left: 5px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    &--active {
+      background: #f3f4f6;
+      color: #fff;
+      i {
+        color: #5f4d88;
+      }
+    }
+  }
+}

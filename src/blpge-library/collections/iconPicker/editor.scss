@@ -1,0 +1,103 @@
+.blpge_iconPickerWrraper i:hover {
+	background: #c2c2c2;
+}
+
+.blpge_iconPickerPreview i {
+	font-size: 18px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.blpge_iconsContainer {
+	max-height: 250px;
+	overflow-y: auto;
+	border: 1px solid #8c96a0;
+	border-top: 0px;
+	margin-bottom: 25px;
+	padding: 5px;
+}
+
+
+.blpge_iconInputSearch {
+	width: 100%;
+	display: block;
+	border-radius: 0px !important;
+	border: 1px solid #8c96a0;
+	margin-top: 5px;
+}
+
+.blpge_limitedIconsContainer {
+	min-width: 200px;
+}
+
+.blpge_iconsContainer i, .blpge_limitedIconsContainer i {
+	padding: 8px;
+    cursor: pointer;
+    margin: 2px;
+    font-size: 17px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+// Scroll Bar
+.blpge_iconsContainer::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+.blpge_iconsContainer::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+.blpge_iconsContainer::-webkit-scrollbar-thumb {
+    background: #8c96a0;
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+.blpge_iconsContainer::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+
+
+// Tabs Styles
+.blpge_inspector-tab-panel .components-tab-panel__tabs button {
+	font-size: 13px;
+	border: 1px solid #bababa;
+	cursor: pointer;
+	padding: 5px 8.6px;
+	box-shadow: none  !important;
+}
+
+.blpge_inspector-tab-panel .components-tab-panel__tabs button:hover {
+	background: #3386ba;
+	border:1px solid #3386ba;
+	color: #ffffff;
+}
+
+.blpge_inspector-tab-panel .components-tab-panel__tab-content {
+	padding: 15px;
+    border: 1px solid #3386ba;
+}
+
+.blpge_inspector-tab-panel-active {
+	background:#3386ba;
+	color: #fff;
+	border:1px solid #3386ba !important;
+	
+}
+.blpge_pre_iconsContainer{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.blpge_pre_iconsContainer span{
+	padding: 5px;
+	font-size: 20px;
+	border: 1px solid #eeeeee;
+	margin-left:3px;
+	cursor: pointer;
+}

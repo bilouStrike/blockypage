@@ -1,0 +1,66 @@
+// ==========================================================================
+// Inputs Row
+// ==========================================================================
+.blpge_inspector_inputs-row {
+  &__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    div[class^="blpge_row__col--"] {
+      padding: 0px;
+    }
+  }
+
+  &__inputs {
+    display: flex;
+    flex-wrap: nowrap;
+    .components-range-control__slider {
+      display: none;
+    }
+
+    .components-range-control__number {
+      margin: 0px;
+      border-radius: 0px !important;
+      border-color: $light-gray !important;
+
+    }
+
+    .components-base-control {
+      margin-bottom: 0px !important;
+      max-width: 50px !important;
+      & .components-input-control__backdrop {
+        border: 1px solid #ddd !important;
+      }
+    }
+  }
+
+  &__lock-icon {
+    cursor: pointer;
+    background: $lighter-gray !important;
+    border: 1px solid #e1e1e1 !important;
+    height: 31px;
+    padding: 0 10px;
+    border-radius: 0 6px 6px 0;
+    width: 50px;
+  }
+
+  // Help texts 
+  .components-base-control .components-base-control__help {
+    color: $dark-gray;
+    margin-top: -5px;
+    font-style: italic;
+    font-size: 9.5px;
+    text-align: center;
+  }
+}
+.blpge_inspector_inputs-row__lock-icon {
+  padding: 8px 10px;
+}
+
+#editor .components-range-control__number {
+  width: 55px !important;
+}
+
+.components-input-control__backdrop {
+  border: 1px solid #ddd !important;
+}

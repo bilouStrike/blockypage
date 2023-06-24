@@ -1,0 +1,24 @@
+
+.blpge_row div[data-type="blockypage-blocks/team"] .blpge_editor_extra-toolbar {
+    display: none !important;
+}
+.blpge_team > div > .blpge_editor_sub-block~.blpge_editor_sub-block {
+    flex:1;
+}
+.blpge_team__layout-style-2  > .blpge_editor_sub-block .blpge_team__content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    opacity: 0;
+    transition: 0.8s ease;
+    background-color: #fff;
+}
+.blpge_team__layout-style-2:hover > .blpge_editor_sub-block .blpge_team__content {
+    opacity: 0.9;
+    z-index: 9999;
+}

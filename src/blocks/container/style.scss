@@ -1,0 +1,47 @@
+// Block Initial Styles
+.blpge_container--block {
+  padding: 50px 25px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: auto;
+}
+
+.blpge_container--block__wrapper {
+  max-width: 100%;
+  margin: auto;
+}
+
+
+// Inner Content Styles
+.blpge_container--block p {
+  margin: 0px !important;
+}
+
+.blpge_container__videoContainer {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  z-index: -50;
+}
+
+// video poster
+.blpge_container__videoContainer img {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  cursor: pointer;
+}
+
+// Shape Divider
+.blpge_block-container .blpge_block-first-wrapper .blpge_block-second-wrapper .blpge_shape-divider-container svg {
+  width: 100%;
+}

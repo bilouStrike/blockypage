@@ -1,0 +1,69 @@
+.blpge_row__col__wrapper {
+    display: block !important;
+    width: 100% !important;
+    z-index: 0;
+}
+.blpge_row--block div[class^="blpge_row__col"] {
+    position: relative;
+    z-index: 0;
+}
+.blpge_pricing {
+	text-align: center;
+}
+.blpge_pricing__header {
+	display: flex;
+	flex-direction: column;
+	padding:15px;
+	background: #1baff4;
+	color: azure;
+}
+.blpge_pricing__header__title {
+	font-size: 28px;
+}
+.blpge_pricing__header__price__currency{
+	font-size: 20px;
+}
+.blpge_pricing__header__price__value{
+	font-size: 45px;
+	font-weight: bold;
+}
+.blpge_pricing__body{
+	padding: 4px;
+}
+.blpge_pricing__item__text{
+	font-size: 16px;
+	line-height:2;
+}
+.blpge_pricing__item svg{
+	width:16px;
+	font-size: 16px;
+}
+.blpge_pricing__footer__option{
+	margin-top: 15px;
+	font-size: 16px;
+}
+.blpge_pricing__footer__button {
+	margin-top: 15px;
+}
+.blpge_pricing__layout--style_2 .blpge_pricing__header__price {
+	order: 3;
+}
+.blpge_pricing__item {
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center
+}
+.blpge_pricing__item svg {
+    width: 16px;
+    margin-right: 5px;
+    color: #1baff4;
+}
+.blpge_pricing__layout--style_2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+

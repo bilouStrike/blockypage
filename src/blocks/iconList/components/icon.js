@@ -1,0 +1,60 @@
+export default (
+	<svg
+		version="1.1"
+		id="Layer_1"
+		xmlns="http://www.w3.org/2000/svg"
+		xmlnsXlink="http://www.w3.org/1999/xlink"
+		x="0px"
+		y="0px"
+		viewBox="0 0 64 64"
+		xmlSpace="preserve"
+	>
+		<style type="text/css">
+			{ `
+	.blpge_st0{fill:#DA313F;}
+	.blpge_st1{fill:#EC6C78;}` }
+		</style>
+		<path
+			id="XMLID_598_"
+			class="blpge_st0"
+			d="M5.1,14.5H2.5c-1,0-1.8-0.8-1.8-1.8V10c0-1,0.8-1.8,1.8-1.8h2.6c1,0,1.8,0.8,1.8,1.8v2.6
+	C6.9,13.6,6.1,14.5,5.1,14.5z"
+		/>
+		<rect
+			id="XMLID_4_"
+			x="11.1"
+			y="9.3"
+			class="blpge_st1"
+			width="52.3"
+			height="3.9"
+		/>
+		<path
+			id="XMLID_597_"
+			class="blpge_st0"
+			d="M5.1,35.5H2.5c-1,0-1.8-0.8-1.8-1.8V31c0-1,0.8-1.8,1.8-1.8h2.6c1,0,1.8,0.8,1.8,1.8v2.6
+	C6.9,34.7,6.1,35.5,5.1,35.5z"
+		/>
+		<rect
+			id="XMLID_3_"
+			x="11.1"
+			y="30.4"
+			class="blpge_st1"
+			width="52.3"
+			height="3.9"
+		/>
+		<path
+			id="XMLID_616_"
+			class="blpge_st0"
+			d="M5.1,56.5H2.5c-1,0-1.8-0.8-1.8-1.8v-2.6c0-1,0.8-1.8,1.8-1.8h2.6c1,0,1.8,0.8,1.8,1.8v2.6
+	C6.9,55.7,6.1,56.5,5.1,56.5z"
+		/>
+		<rect
+			id="XMLID_2_"
+			x="11.1"
+			y="51.4"
+			class="blpge_st1"
+			width="52.3"
+			height="3.9"
+		/>
+	</svg>
+);

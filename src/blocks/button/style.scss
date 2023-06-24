@@ -1,0 +1,76 @@
+// Default Button Style
+.blpge_btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;
+}
+
+.blpge_btn-wrapper a {
+   color: #fff;
+}
+
+.blpge_block-first-wrapper .blpge_block-second-wrapper .blpge_btn {
+    color: #fff;
+}
+
+.blpge_btn {
+    transition: background-color 0.5s ease;
+    background-color: #4A90E2;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: normal;
+    font-family: "sans-serif";
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blpge_btn__text {
+    order: 0;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.blpge_btn:hover {
+    opacity: 0.75;
+}
+
+// Icon 
+.blpge_btn_icon {
+    margin-left: 5px;
+} 
+
+// Buttons Sizes
+.blpge_btn--xsmall {
+    padding: 1px 5px;
+    font-size: 12px;
+}
+
+.blpge_btn--small {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.blpge_btn--medium {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.blpge_btn--large {
+    padding: 15px 25px;
+    font-size: 20px;
+}
+
+.blpge_btn--xlarge {
+    padding: 20px 30px;
+    font-size: 28px;
+}
+
+.blpge_btn__icon svg {
+    width: 16px;
+    vertical-align: middle;
+}

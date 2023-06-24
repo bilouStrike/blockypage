@@ -1,0 +1,21 @@
+.blpge_main_buttons {
+  display: flex;
+  align-items: center;
+  padding-top: 1px;
+
+  .blpge_layout_button {
+    background: #5f4d88;
+    padding: 10px 15px;
+    position: relative;
+    min-height: 36px;
+    color: #fff !important;
+    border-radius: 5px;
+    margin-left: 20px;
+    i {
+      margin-left: 10px;
+    }
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

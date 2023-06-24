@@ -1,0 +1,36 @@
+// Animation options
+.blpge_inspector_animation-options {
+  width: 100%;
+  text-align: center;
+}
+
+.blpge_inspector_animation-options .components-range-control__number {
+  width: 60px;
+}
+
+.blpge_inspector_animation-options .components-range-control__slider {
+  display: none;
+}
+
+.blpge_inspector_animation-options-column {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.blpge_inspector_animation-options-column > div {
+  padding: 0px 10px;
+}
+
+// Animation Preview
+.blpge_inspector_animation-preview-box {
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 100px;
+  margin-left: 5px;
+  border-radius: 4px;
+}

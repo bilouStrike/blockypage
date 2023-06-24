@@ -1,0 +1,65 @@
+.blpge_testimonial {
+  padding: 20px;
+  text-align: center;
+}
+
+.is-style-blpge_testimonial__layout-style_1 .blpge_testimonial__details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.is-style-blpge_testimonial__layout-style_2 .blpge_testimonial__details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.is-style-blpge_testimonial__layout-style_3 .blpge_testimonial > div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.is-style-blpge_testimonial__layout-style_2 .blpge_testimonial__details__info {
+  margin-left: 15px;
+}
+
+.blpge_testimonial__details__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blpge_testimonial__details__info__name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.blpge_testimonial__details__info__job {
+  font-size: 14px;
+}
+
+.blpge_testimonial__icon--top svg {
+  width: 80px;
+}
+
+.blpge_testimonial__icon--bottom svg {
+  width: 80px;
+}
+
+.blpge_testimonial__details__avatar img {
+  width: 150px;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+.is-style-blpge_testimonial__layout-style_3 .blpge_testimonial__icon--top {
+  order: 3;
+  display: block;
+}
+
+.is-style-blpge_testimonial__layout-style_3 .blpge_testimonial__icon--bottom {
+  order: -1;
+  display: block;
+}

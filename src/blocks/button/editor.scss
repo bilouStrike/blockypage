@@ -1,0 +1,23 @@
+.blpge_editor_btn-form {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 13px;
+    line-height: 1.4;
+    width: 374px;
+    margin: 5px;
+}
+
+.blpge_inspector_input--text {
+    max-width: 100%;
+}
+
+.blpge_btn .editor-rich-text__tinymce {
+    min-width: 25px;
+    cursor: text;
+}
+
+.blpge_btn .blpge_editor_richText {
+    white-space: nowrap !important;
+}

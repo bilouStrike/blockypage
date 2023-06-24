@@ -1,0 +1,16 @@
+// ==========================================================================
+// Line Through
+// ==========================================================================
+
+.blpge_inspector_line-through {
+  position: absolute;
+  &--btn-group {
+    border-top: none;
+    border-bottom: 2px solid $light-gray !important;
+    margin: 1em 0;
+    z-index: -1;
+    left: 0px;
+    width: 100%;
+    max-width: 260px;
+  }
+}

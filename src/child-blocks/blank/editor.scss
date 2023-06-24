@@ -1,0 +1,30 @@
+div[data-type='blockypage-blocks/blank']  {
+    text-align: center;
+}
+
+div[data-type='blockypage-blocks/blank']  .dashicons-insert {
+    width: 30px;
+    height: 30px;
+    color: #333;
+}
+div[data-type='blockypage-blocks/blank']  .editor-inserter {
+    background: transparent;
+}
+
+div[data-type='blockypage-blocks/blank']  .editor-inserter button {
+    width: 100px;
+    height: 100px;
+}
+
+div[data-type='blockypage-blocks/blank'] .editor-inserter:hover {
+    background: transparent;
+}
+
+div[data-type='blockypage-blocks/blank'] .editor-block-list__insertion-point .editor-block-list__insertion-point-inserter:hover .dashicons-insert {
+    color: rgb(142, 141, 141);
+}
+
+div[data-type='blockypage-blocks/blank'] .editor-block-list__insertion-point .editor-block-list__insertion-point-inserter {
+    opacity: 1 !important;
+    margin: 50px auto;
+}

@@ -1,0 +1,33 @@
+// ==========================================================================
+// Color Palette
+// ==========================================================================
+
+.blpge_inspector_color-palette {
+    border-radius: 4px;
+    background: $lighter-gray;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0px;
+    width: 100%;
+    .components-color-palette__custom-clear-wrapper {
+        width: 100%;
+        justify-content: center;
+        padding-top: 8px;
+        margin-top: 5px;
+        background: #fff;
+
+        .is-link {
+            color: $primary-color;
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+       
+    }
+    .components-color-palette__item-wrapper {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}

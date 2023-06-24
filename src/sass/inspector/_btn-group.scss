@@ -1,0 +1,82 @@
+// ==========================================================================
+// Button Group
+// ==========================================================================
+.blpge_inspector_btn-group {
+  width: 100%;
+  display:flex;
+
+ /* &__btn:first-child {
+    border-radius: 4px 0px 0px 4px;
+  }
+
+  &__btn:last-child {
+    border-radius: 0px 4px 4px 0px;
+  }*/
+
+  &__btn {
+    display: block !important;
+    text-align: center;
+    flex-grow: 1;
+    padding: 6px 8px;
+    background: #f4f4f4;
+    border: 1px solid #e1e1e1;
+    color: #575757;
+    font-size: 11px;
+    font-weight: 600;
+    box-shadow: none !important;
+    &:focus:enabled {
+      box-shadow: none !important;
+      outline: 0px !important;
+      outline-offset: 0px !important;
+    }
+
+    &:first-child {
+      border-radius: 0 2px 2px 0;
+    }
+
+    svg {
+      margin: auto; 
+    }
+
+    i {
+      margin-left: 5px;
+      font-size: 9px;
+      margin-top: 2px;
+    }
+
+    &:hover {
+      background-color: $secondary-color !important;
+      color: #fff !important;
+      transition: background-color 0.5s ease;
+    }
+
+    &--active {
+      color: #fff !important;
+      background-color: $secondary-color !important;
+      &:focus {
+        outline: 0;
+        box-shadow: none !important;
+        background-color: $secondary-color;
+        color: #fff !important;
+      }
+    }
+
+    &--light:hover {
+      background-color: #fff !important;
+      color: $primary-color !important;
+      transition: background-color 0.5s ease;
+    }
+
+    &--active-light {
+      color: $primary-color;
+      background-color: #fff !important;
+      border-bottom: 1px solid #fff ;
+      &:focus {
+        outline: 0;
+        box-shadow: none !important;
+        background-color: $secondary-color;
+        color: #fff !important;
+      }
+    }
+  }
+}

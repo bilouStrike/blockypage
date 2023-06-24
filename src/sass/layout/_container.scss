@@ -1,0 +1,21 @@
+// ==========================================================================
+// Container
+// ==========================================================================
+
+.blpge_container {
+  position: relative;
+  z-index: 0;
+  max-width: 1140px;
+  margin: auto;
+
+  &--fluid {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  &--fluid-vw {
+    width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+    max-width: 100vw !important;
+  }
+}

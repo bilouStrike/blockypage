@@ -1,0 +1,49 @@
+.blpge_block-container .blpge_block-first-wrapper .blpge_block-second-wrapper .blpge_tabs__titles {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+}
+
+.blpge_tabs__titles__link {
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid #d3d2d2;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.blpge_tabs__titles {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.blpge_tabs__titles__link--current {
+  background-color: #ededed;
+  color: #222;
+}
+
+.blpge_tabs__contents__tab-content {
+  display: none;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.blpge_tabs__contents__tab-content.blpge_tabs__titles__link--current {
+  display: inherit;
+}
+
+.blpge_tabs__contents__tab-content.hide {
+  display: none;
+}
+
+// InnerTabs Content
+
+.blpge_tabs__contents__tab-content .blpge_block-second-wrapper > [class^="blpge_"] {
+  margin-top: 0px;
+}

@@ -1,0 +1,66 @@
+.blpge_textShadow {
+  width: 100%;
+}
+
+.blpge_textShadow__shadow_style {
+  width: 45%;
+  float: left;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f1f5f9;
+  margin: 5px;
+  height: 70px;
+  font-weight: 900;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.blpge_textShadow__shadow_style--style1 {
+  text-shadow: 1px 1px 17px #999999;
+}
+
+.blpge_textShadow__shadow_style--style2 {
+  text-shadow: 5px 5px 5px #999999;
+}
+
+.blpge_textShadow__shadow_style--style3 {
+  text-shadow: 1px 6px 4px #999999;
+}
+
+.blpge_textShadow__shadow_style--style4 {
+  text-shadow: 2px 2px 0px #999999;
+}
+
+.blpge_inspector_line-height-section .blpge_inspector_css-units__unit {
+  padding: 0 5px !important;
+  font-size: 9px !important;
+}
+
+.blpge_inspector_select-leftPadding {
+  padding-left: 5px;
+}
+
+.css-26l3qy-menu {
+  z-index: 999 !important;
+  background: #fff;
+}
+
+.css-yk16xz-control {
+  cursor: pointer !important;
+}
+.blpge_inspector_btn-group--align {
+  width: 150px !important;
+  float: right;
+  margin-top: 5px;
+  button {
+    padding: 3px !important;
+    box-shadow: none !important;
+    svg {
+      width: 16px;
+    }
+  }
+
+}

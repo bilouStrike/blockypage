@@ -1,0 +1,40 @@
+// ==========================================================================
+// Sidebar toggle button
+// ==========================================================================
+
+.blpge_editor_sidebar-btn {
+  padding-right: 10px;
+  background: #e0e0e0;
+  height: 25px;
+  height: 40px;
+  border-radius: 5px 0px 0px 5px;
+  position: fixed;
+  right: 280px;
+  top: 50%;
+  z-index: 999;
+  cursor: pointer;
+  .fa-angle-left {
+    display: none;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:focus:enabled {
+    box-shadow: none !important;
+    outline: 0px !important;
+    outline-offset: 0px !important;
+  }
+  &--closed {
+    right: 0px !important;
+
+    .fa-angle-right {
+      display: none;
+    }
+
+    .fa-angle-left {
+      display: inline-block;
+    }
+  }
+}

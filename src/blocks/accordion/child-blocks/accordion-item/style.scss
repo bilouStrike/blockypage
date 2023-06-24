@@ -1,0 +1,14 @@
+
+.blpge_accordion__items .blpge_according__items__link__content {
+    margin: 0px;
+    color: #000000;
+    padding: 10px;
+}
+
+.blpge_accordion__items .blpge_according__items__link__title svg {
+    width: 15px;
+}
+
+.is-open{
+    transform: rotateX(180deg);
+}

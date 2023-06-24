@@ -1,0 +1,10 @@
+.blpge_row__col__wrapper {
+    display: block !important;
+    width: 100% !important;
+    z-index: 0;
+}
+
+.blpge_row--block div[class^="blpge_row__col"] {
+    position: relative;
+    z-index: 0;
+}

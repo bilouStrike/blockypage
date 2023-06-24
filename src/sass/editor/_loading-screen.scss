@@ -1,0 +1,23 @@
+// ==========================================================================
+// Loading Screen
+// ==========================================================================
+.blpge_editor_loading-screen {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 9999;
+  opacity: 1;
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    width: 50px;
+  }
+}

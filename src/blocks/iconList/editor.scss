@@ -1,0 +1,31 @@
+.blpge_iconList__item__removeIcon{
+    height: 16px;
+    display: flex;
+}
+
+.blpge_iconList__item__removeIcon svg{
+    margin-left:10px;
+    width: 14px !important;
+    color:red !important;
+    cursor: pointer;
+}
+.blpge_iconList__add_newItem {
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    text-align: center;
+    background: #eeeeee;
+    opacity: 0;
+}
+
+.blpge_iconList__add_newItem svg {
+    margin-right:5px;
+    color: #333333 !important;
+    width: 14px !important;
+}
+
+div[data-type="blockypage-blocks/iconlist"]:hover .blpge_iconList__add_newItem { 
+    opacity: 1;
+}
+

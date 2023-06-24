@@ -1,0 +1,28 @@
+// ==========================================================================
+// CSS Units
+// ==========================================================================
+.blpge_inspector_css-units {
+  float: right;
+  &__unit {
+    margin-left: 2px;
+    height: 20px !important;
+    line-height: 16px !important;
+    padding: 0 8px !important;
+    font-size: 10px !important;
+    background: $lighter-gray;
+    border-radius: 4px;
+    box-shadow: none !important;
+    &--active {
+      background: $primary-color !important;
+      color: #fff !important;
+      border: 0px !important;
+      outline: 0px !important;
+    }
+
+    &:focus:enabled {
+      box-shadow: none !important;
+      outline: 0px !important;
+      outline-offset: 0px !important;
+    }
+  }
+}

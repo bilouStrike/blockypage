@@ -1,0 +1,17 @@
+// Column Custom Styles
+.blpge_row--block {
+  padding: 15px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+
+.blpge_row--block div[class^="blpge_row__col"] {
+  display: flex;
+}
+
+body .entry .blpge_row--block {
+  max-width: 100%;
+}
+
+

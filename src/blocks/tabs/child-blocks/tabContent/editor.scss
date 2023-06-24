@@ -1,0 +1,34 @@
+div[data-type="blockypage-blocks/tab-content"] > .editor-block-list__block-edit {
+  left: -20px;
+}
+
+.is-selected div[data-type="blockypage-blocks/tab-content"] > .editor-block-list__block-edit {
+  border: 1px dashed #999a9b;
+}
+
+div[data-type="blockypage-blocks/tabs"]:hover
+  div[data-type="blockypage-blocks/tab-content"]
+  > .editor-block-list__block-edit {
+  border: 1px dashed #999a9b;
+}
+
+div[data-type="blockypage-blocks/tabs"]:hover
+  div[data-type="blockypage-blocks/tab-content"]
+  .blpge_editor_extra-toolbar {
+  display: flex;
+}
+
+div[data-type="blockypage-blocks/tabs"]:hover .blpge_editor_appender {
+  opacity: 1 !important;
+}
+
+div[data-type="blockypage-blocks/tab-content"] {
+  margin-left: 19px !important;
+}
+
+.blpge_mode div[data-type="blockypage-blocks/tab-content"] {
+  margin-left: 19px !important;
+}
+
+
+

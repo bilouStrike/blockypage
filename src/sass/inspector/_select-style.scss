@@ -1,0 +1,17 @@
+.blpge_inspector_select_style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.blpge_select_style__item {
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 7px;
+  &:hover {
+    opacity: 0.6;
+  }
+}

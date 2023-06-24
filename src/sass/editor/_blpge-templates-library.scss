@@ -1,0 +1,159 @@
+.blpge_library {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    left: 0;
+    top: 0;
+    overflow: auto;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    font-size: 16px !important;
+    font-family:  "Trebuchet MS", Helvetica, sans-serif ;
+}
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
+.blpge_library a, a:focus, a:active{
+    text-decoration: none;
+    color: #333333;
+    outline: none;
+}
+.blpge_library__wrapper {
+    margin: 5% auto; /* 15% from the top and centered */
+    width: 70%; /* Could be more or less, depending on screen size */
+    position: relative;
+    display: flex;
+    z-index: 999;
+    max-height: 75%;
+    flex-direction: column;
+    background-color: #fff;
+}
+.blpge_library__nav {
+    background: #343352;
+    display: flex;
+    align-items: center;
+    color: #eee;
+    z-index: 9999;
+    justify-content: space-between;
+    padding: 10px;
+}
+.blpge_library__content {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+.blpge_library__nav__main {
+    padding: 7px;
+}
+.blpge_library__nav__main a {
+    cursor: pointer;
+    color: #ffffff !important;
+    padding: 10px;
+}
+
+.blpge_library__body {
+  position: relative;
+    min-height: 600px;
+    overflow-y: auto;
+}
+.blpge_library__nav__logo {
+    display: flex;
+    align-items: center;
+}
+.blpge_library__content__sidebar {
+    width: 20%;
+    padding:20px;
+    overflow: auto;
+    background: #F1EDFF;
+}
+.blpge_library__content__body {
+  width: 80%;
+  overflow: auto;
+  min-height: 400px;
+}
+.blpge_library__subnav__category select {
+    width: 170px;
+    font-size: 15px;
+    height: 30px;
+    border-radius: 5px;
+}
+.blpge_library__items_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.blpge_library__body__item {
+    position: relative;
+    width: 49.5%;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px #777777;
+}
+.blpge_library__body__item__thumbnail img{
+    display: block;
+}
+.blpge_library__body__item--overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    opacity: 0;
+    top: 0;
+    left:0;
+    text-align: center;
+}
+.blpge_library__body__item--overlay a{
+    cursor: pointer;
+}
+.blpge_library__body__item:hover .blpge_library__body__item__thumbnail {
+    opacity: 0.3;
+}
+.blpge_library__body__item:hover .blpge_library__body__item--overlay {
+    opacity: 1;
+}
+.blpge_library__body__item--overlay .blpge_library__body__item--button {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    min-width: 22%;
+    background-color: #e7404b;
+    color: #fff !important;
+    padding: .2rem 1rem;
+    font-size: 16px;
+    border-radius: .3rem;
+}
+.blpge_library__body__item--overlay .blpge_loading_layout_gif {
+    display: none;
+}
+.blpge_library__body__item--button {
+    color: #fff !important;
+}
+.blpge_library__body__item--button i{
+    color: #fff;
+    font-size: 15px;
+    margin-right: 3px;
+}
+.blpge_active_cat {
+    border-bottom: 2px solid #e7404b;
+}
+.blpge_library__loading {
+    text-align: center;
+}
+.blpge_library__nav__close {
+    cursor: pointer;
+}
+.blpge_library__menuNav__item {
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.blpge_library__menuNav__item span {
+    float:right;
+}

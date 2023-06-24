@@ -1,0 +1,34 @@
+.blpge_inspector_shapes-selector-container {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border:0 !important;
+  svg {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 2px;
+    height: 30px;
+    width: 110px;
+    &:hover {
+        background: #f4f4f4;
+    }
+  }
+}
+
+.blpge_inspector_shapes-selector-button {
+    width: 100% !important;
+    svg {
+        width: 100% !important;
+    }
+    i {
+        padding-right: 10px;
+    }
+}
+
+.blpge_inspector_shapes-selector-container {
+  .st0, .st1, .st2, .st3,.st4, .st5, .st6, .st7 {
+    fill: #333 !important;
+  }
+ }

@@ -1,0 +1,13 @@
+.blpge_row div[data-type="blockypage-blocks/infobox"] .blpge_editor_extra-toolbar {
+    display: none !important;
+}
+.blpge_infoBox__information p {
+  font-size: 16px;
+}
+.blpge_infoBox > div > .blpge_editor_sub-block~.blpge_editor_sub-block {
+  flex:1;
+}
+
+.blpge_infoBox .blpge_infoBox__media {
+  line-height: 1.2;
+}

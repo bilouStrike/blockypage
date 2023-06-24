@@ -1,0 +1,14 @@
+.blpge_inspector_inputs-row__inputs span.components-range-control__number {
+    height: 28px;
+    background: #e8eaec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a19e9e;
+    font-size: 11px;
+    cursor: default;
+}
+
+.blpge_inspector_inputs-row__inputs .components-range-control__wrapper {
+    display: none !important;
+}

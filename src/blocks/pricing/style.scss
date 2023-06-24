@@ -1,0 +1,18 @@
+// Column Custom Styles
+.blpge_pricing--block {
+  background: #fff;
+}
+
+.blpge_row--block div[class^="blpge_row__col"] {
+  display: flex;
+}
+
+body .entry .blpge_row--block {
+  max-width: 100%;
+}
+
+.wp-block-blockypage-blocks-pricingrow div[class^="blpge_row__col"] {
+  padding: 0px;
+}
+
+

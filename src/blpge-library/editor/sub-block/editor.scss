@@ -1,0 +1,14 @@
+.blpge_editor_sub-block {
+  cursor: pointer;
+  :hover {
+    opacity: 0.9;
+  }
+  &--selected {
+    > * {
+      box-shadow: 0 0 0 1px rgb(149, 194, 228);
+    }
+    :hover {
+      opacity: 1;
+    }
+  }
+}
